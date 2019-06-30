@@ -26,28 +26,6 @@ function alterna(e)
   }
 }
 
-function displayon(e)
-{
-    TabelaEl.style.visibility = 'visible';
-    TabelaEl.style.left = '230px';
-    TabelaEl.style.top = '75px';
-    TabelaEl.style.transition = 'all 200ms ease';
-}
-
-
-function displayoff(e)
-{
-  TabelaEl.style.visibility = 'hidden';
-  TabelaEl.style.left = '250px';
-  TabelaEl.style.top = '55px';
-  TabelaEl.style.transition = 'all 0ms ease';
-}
-
-
-
-BotaoCoutoEl.addEventListener('mouseover',displayon);
-BotaoCoutoEl.addEventListener('mouseout', displayoff);
-
 
 BotaoEl.addEventListener('click',alterna);
 
